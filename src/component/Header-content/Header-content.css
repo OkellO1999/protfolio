@@ -1,0 +1,99 @@
+.h-content{
+    justify-content: center;
+    flex: 1;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 100vh;
+}
+.greetings{
+    color: black !important;
+    font-style: oblique;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.n-name{
+    font-size: 2rem;
+    font-weight: 600;
+    font-style: oblique;
+}
+.h-content >.left{
+    display: flex;
+    max-height: 50vh;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.hire{
+    padding: 2%;
+}
+.images{
+    transform: scale(0.4);
+    margin-left: -34%;
+    display: flex;
+}
+.images>img:nth-child(2){
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.content-img{
+    position: absolute;
+    left: 27%;
+    opacity: .7;
+    top: 22rem;
+}
+.imgs{
+    transform: scale(.4);
+    position: relative;
+    bottom: 1rem;
+    right: -4rem;
+}
+.imgs >div:nth-child(2)>img{
+    position: relative;
+    bottom: 25rem;
+    right: -15rem;
+}
+.imgs >div:nth-child(1)>img{
+    position: relative;
+    bottom: -5rem;
+    right: -10rem;
+}
+.img3{
+    position: absolute;
+    right: 10rem;
+    bottom: 2rem;
+}
+.profile{
+    position: absolute;
+    right: 28rem;
+    top: 14rem;
+}
+.profile>img{
+    border-radius: 100%;
+
+}
+.text{
+    position: absolute;
+    top: 13rem;
+    right: 4rem;
+    padding: 1%;
+    background: white;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+.text:hover{
+    color: whitesmoke;
+    transition: 1s;
+    background: #5dbf9b;
+    padding: 2rem;
+}
+.Contactinfo{
+    width: 100vw;
+    margin-left: 2%;
+    display: flex;
+    font-size: 1rem;
+}
+h2>span:nth-child(2){
+    color: brown;
+}
+h2>span:nth-child(2)>span{
+    color: black;
+}

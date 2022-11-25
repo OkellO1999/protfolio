@@ -1,0 +1,72 @@
+.services>hr{
+width: 40%;
+margin: auto;
+border: 2px solid gray;
+}
+.services>p{
+    color: orange;
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    font-style: oblique;
+    margin-top: -6%;
+}
+.services .left >span{
+    color: gray !important;
+    font-weight: normal !important;
+}
+.services .left{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    margin-top: 2rem;
+
+}
+.services .left>.svc-btn{
+    padding: 2%;
+    width: 30%;
+}
+.services-content{
+    flex: 1;
+    display: flex;
+    max-height: 800vh;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+
+}
+.services .right >div{
+    gap: 2rem;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.flex1>div,
+.flex2>div{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    height: 40vh;
+    gap: 1rem;
+    padding: 2rem;
+}
+.flex1>div,
+.flex2>div:first-child
+{
+    margin-right: 2rem;
+}
+.swiper{
+
+max-height: 50vh;
+max-width: 40vw;
+margin-top: 4rem;
+}
+.flex1>div:hover,
+.flex2>div:hover{
+    background: #fd731d;
+    color: whitesmoke;
+    transition: 1s;
+    padding: 3rem;
+    height: 45vh;
+    position: relative;
+
+}

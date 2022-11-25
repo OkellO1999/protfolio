@@ -1,0 +1,82 @@
+.main-content{
+    display: flex;
+    flex: 1;
+    width: 80%;
+    margin: auto;
+    flex-direction: row;
+}
+.main-right{
+    width: 30%;
+    float: right;
+    margin-left: 20rem;
+    display: flex;
+    flex-direction: column;
+    max-height: 20vh;
+    flex: 1;
+    gap: 1rem;
+}
+.main-right>.circle>div>img{
+transform: scale(.4);
+display: flex;
+flex-direction: column;
+margin-top: -8rem;
+}
+.main-right>.circle>div>img:nth-child(1){
+    transform: scale(.2);
+    right: 8rem;
+    position: relative;
+    top: 2rem;
+}
+.main-right>.circle>div>img:nth-child(2){
+    transform: scale(.5);
+    left: 1.0rem;
+    position: relative;
+    bottom: 1rem;
+}
+.main-right>.circle>div>img:nth-child(3){
+    transform: scale(.5);
+    right: 1.5rem;
+    position: relative;
+    top: 4.8rem;
+}
+.main-right>.circle>div>img:nth-child(5){
+    transform: scale(.4);
+    right: 22rem;
+    position: absolute;
+    top: 224rem;
+}
+.main-right>.circle>div>img:nth-child(4){
+    transform: scale(.08);
+    right: 24rem;
+    position: relative;
+    bottom: 16rem;
+    border-radius: 100px;
+}
+.Form >form{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 6rem;
+    flex: 1;
+    gap: 2rem;
+    padding: 2rem;
+    background: rgba(34, 221, 34, 0.815);
+}
+input{
+    background:rgba(13, 175, 13, 0.815);
+    border: none;
+    padding: 1rem;
+}
+textarea{
+    background: rgba(13, 175, 13, 0.815);
+    border: none;
+}
+.Submit{
+    width: 100%;
+    padding: 1rem;
+}
+.Submit{
+    width: 100%;
+    border-radius: 100px;
+    background-color: rgb(240, 184, 80);
+}

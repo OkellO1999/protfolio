@@ -1,0 +1,98 @@
+
+.n-navbar{
+    flex: 1;
+    display: flex;
+    max-height: 14vh;
+    position: sticky;
+    top: 0;
+}
+.navcolor{
+    background: #fd7b22;
+    width: 100%;
+}
+.left{
+    flex: 1;
+    display: flex;
+    gap: 1rem;
+    margin-left: 2rem !important;
+    margin-top: 1rem;
+}
+.right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-right: 2rem;
+}
+.right>ul{
+    flex: 1;
+    display: flex;
+    gap: 1rem;
+}
+.right>ul>li{
+    list-style: none;
+}
+button{
+    color: white;
+    transform: scale(0.67);
+    width: 30%;
+    font-size: 1.5rem;
+    outline: none;
+    border: none;
+    background-color: rgb(240, 184, 80);
+    border-radius: 100px;
+    box-shadow: 0px 19px 60px rgb(0 0 0 / 8%);
+}
+.left>span:first-child{
+    font-weight: 700;
+    color: #097879;
+    font-style: oblique;
+}
+hr{
+    border: 1px solid rgb(197, 197, 197);
+    position: sticky;
+    top: 0;
+}
+.link:hover
+{
+    font-weight: 700;
+    color: orange;
+    transition: .2s;
+    text-decoration: underline;
+    cursor: pointer;
+    /* font-size: .5rem; */
+    font-style: oblique;
+    position: relative;
+}
+.btn-contact:hover{
+    background: white;
+    border: 1px solid orange;
+    transition: 1s;
+    color: black;
+    cursor: pointer;
+}
+.nav1{
+    max-height: 1rem;
+    color: black;
+    padding: 2rem;
+
+}
+.play{
+font-size: 2rem;
+font-style: oblique;
+position: relative;
+bottom: 2rem;
+}
+.link:active{
+    color: aqua;
+    text-decoration: underline;
+}
+.active{
+    color: aqua;
+    text-decoration: underline;
+}
+@media screen and (max-width: 480px) {
+    .n-navbar>.right>.link {
+      display: none;
+    }
+  }

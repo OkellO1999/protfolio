@@ -1,0 +1,18 @@
+.experience{
+    width: 90%;
+    margin: auto;
+}
+.experience>hr{
+    width: 15%;
+    border: 3px solid gray;
+    margin-left: 0% !important;
+}
+.experience>h1{
+    font-style: oblique;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.experience>p{
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+        padding: 2rem;
+    }

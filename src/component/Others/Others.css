@@ -1,0 +1,33 @@
+.Others-content>span{
+    font-weight: 600;
+    font-style: oblique;
+    font-size: 2rem;
+}
+.txt >p{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    width: 90%;
+    margin: auto;
+    height: 45vh;
+    padding: 2rem;
+}
+.Others-content{
+    width: 60%;
+    margin: auto;
+    padding: 2rem;
+
+}
+.btn{
+    padding: 1rem;
+    margin-top: 2rem;
+    width: 12rem;
+}
+.swipe{
+    position: relative;
+    bottom: 4rem;
+    height: fit-content;
+    cursor: all-scroll;
+}
+.swiperslide>img{
+    height: 60vh;
+    width: auto;
+}

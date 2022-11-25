@@ -1,0 +1,33 @@
+.main-footer-content>img{
+    max-width: 100vw;
+    margin-top: -25%;
+    /* position: relative; */
+}
+.main-footer-content>hr{
+    top: 7rem;
+    position: relative;
+    border: 1px solid skyblue;
+    width: 80%;
+}
+.main-footer-content>p{
+    position: absolute;
+    top: 263rem;
+    left: 30rem;
+    
+}
+.back{
+    position: absolute;
+    transform: scale(.4);
+    left: 65rem;
+    top: 248rem;
+}
+.back>img{
+    border-radius: 100%;
+}
+.Submit:hover{
+    background: white;
+    border: 1px solid orange;
+    transition: 2s;
+    color: black;
+    cursor: pointer;
+}
